@@ -106,7 +106,7 @@ for x in range(i.size[0]):
         print("Scanned pixel " + str(count) + " of " + str(size) + " (" + addzeroes(str(round(count/size*100, 2))) + "%, check back in " + msToTime(timeLeft) + ")")
 
 try:
-    print("Scan complete!")
+    print("Scan complete in " + msToTime(int(round(time.time() * 1000)) - start))
     print("The airport space is " + str(round(greens/reds*100, 2)) + "% of your city.")
     if a == "y":
         print("Your city's land area is " + str(round(reds/size * actualsize, 2)) + " blocks (" + str(round(reds/size * actualsize / 1000000, 2)) + "km^2)")
