@@ -103,7 +103,7 @@ for x in range(i.size[0]):
             greens += 1
         count += 1
         timeLeft = round(((int(round(time.time() * 1000)) - start) / count * (size - count)), 2)
-        print("Scanned pixel " + str(count) + " of " + str(size) + " (" + str(round(count/size*100, 2)) + "%, check back in " + msToTime(timeLeft) + ")")
+        print("Scanned pixel " + str(count) + " of " + str(size) + " (" + addzeroes(str(round(count/size*100, 2))) + "%, check back in " + msToTime(timeLeft) + ")")
 
 try:
     print("Scan complete!")
