@@ -88,7 +88,7 @@ count = 0
 start = int(round(time.time() * 1000))
 
 def addzeroes(string):
-    if not string.includes("."):
+    if not "." in string:
         return string + ".00"
     elif len(string.split(".")[1]) == 1:
         return string + "0"
