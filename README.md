@@ -1,4 +1,4 @@
-# airportcalc
+# airportcalc v1.0.0 (20/7/20)
 A calculator for airports in minecartrapidtransit
 Online version here: https://repl.it/@iiiii7d/airportcalc
 
@@ -9,7 +9,7 @@ Online version here: https://repl.it/@iiiii7d/airportcalc
 4. Export your image to an image hosting site, eg Imgur, Discord
 
 ## Using this calculator
-1. Run the Python script (main.py). Input the url of the image (note: if you're on repl.it, use ctrl+shift+v)
+1. Run the Python script (the only one). Input the url of the image (note: if you're on repl.it, use ctrl+shift+v)
 2. It will tell you whether you want measurements in blocks & km^2. Type y or n.
 3. If you typed y, input the coordinates, eg. Northern Z coordinate will be what is the Z coordinate at the top of the image on the Dynmap
 4. Wait for it to calculate.
