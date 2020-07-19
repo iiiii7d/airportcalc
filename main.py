@@ -1,4 +1,4 @@
-# airportcalc - by i____7d
+# airportcalc v1.0.0 - by i____7d
 # be sure to read the readme first :^)
 
 import requests
