@@ -17,4 +17,5 @@ Online version here: https://repl.it/@iiiii7d/airportcalc
 
 ## More Info
 Licensing: nah idc
+
 If you see a bug, feel free to add an issue :)
