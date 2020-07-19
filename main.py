@@ -70,7 +70,7 @@ if a == "y":
         else:
             print("Please put in a number.")
 
-actualsize = (eastx - westx) * (southz - northz)
+    actualsize = (eastx - westx) * (southz - northz)
 
 r = requests.get(url)
 i = Image.open(BytesIO(r.content))
@@ -102,3 +102,5 @@ try:
     print("Note that these values may or may not be accurate, depending on how you marked the areas out.")
 except ZeroDivisionError:
     print("There are no solid red pixels in the picture!")
+
+end = input()
