@@ -87,6 +87,14 @@ greens = 0
 count = 0
 start = int(round(time.time() * 1000))
 
+def addzeroes(string):
+    if not string.includes("."):
+        return string + ".00"
+    elif len(string.split(".")[1]) == 1:
+        return string + "0"
+    else:
+        return string
+
 for x in range(i.size[0]):
     for y in range(i.size[1]):
         if rgb.getpixel((x,y)) == (255, 0, 0):
@@ -101,7 +109,7 @@ try:
     print("Scan complete!")
     print("The airport space is " + str(round(greens/reds*100)) + "% of your city.")
     if a == "y":
-        print("Your city's land area is " + str(round(reds/size * actualsize, 2)) + " blocks (" + str(round(reds/size * actualsize / 1000000, 2) + "km^2)"))
+        print("Your city's land area is " + str(round(reds/size * actualsize, 2)) + " blocks (" + str(round(reds/size * actualsize / 1000000, 2)) + "km^2)")
         print("Your airport space's land area is " + str(round(greens/size * actualsize, 2)) + " blocks (" + str(round(greens/size * actualsize / 1000000, 2)) + "km^2)")
         print("You have " + str(round(reds/size * actualsize - greens/size * actualsize, 2)) + " blocks of airport space left.")
     print("Note that these values may or may not be accurate, depending on how you marked the areas out.")
