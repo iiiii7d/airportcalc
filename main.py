@@ -107,7 +107,7 @@ for x in range(i.size[0]):
 
 try:
     print("Scan complete!")
-    print("The airport space is " + str(round(greens/reds*100)) + "% of your city.")
+    print("The airport space is " + str(round(greens/reds*100, 2)) + "% of your city.")
     if a == "y":
         print("Your city's land area is " + str(round(reds/size * actualsize, 2)) + " blocks (" + str(round(reds/size * actualsize / 1000000, 2)) + "km^2)")
         print("Your airport space's land area is " + str(round(greens/size * actualsize, 2)) + " blocks (" + str(round(greens/size * actualsize / 1000000, 2)) + "km^2)")
