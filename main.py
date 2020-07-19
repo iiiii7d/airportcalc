@@ -1,3 +1,6 @@
+# airportcalc - by i____7d
+# be sure to read the readme first :^)
+
 import requests
 from io import BytesIO
 from PIL import Image
