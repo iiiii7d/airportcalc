@@ -38,33 +38,38 @@ while True:
     else:
         print("Your URL needs to end with either .png or .jpg.")
 
+def removenegativesign(string):
+    if string.startswith("-"):
+        return string[1:]
+    else:
+        return string
 
 a = input("Do you want measurements in blocks & km^2? (y/n): ")
 if a == "y":
     while True:
         westx = input("Western X coord on map: ")
-        if westx.isdigit():
+        if removenegativesign(westx).isdigit():
             westx = int(westx)
             break
         else:
             print("Please put in a number.")
     while True:
         eastx = input("Eastern X coord on map: ")
-        if eastx.isdigit():
+        if removenegativesign(eastx).isdigit():
             eastx = int(eastx)
             break
         else:
             print("Please put in a number.")
     while True:
         northz = input("Northern Z coord on map: ")
-        if northz.isdigit():
+        if removenegativesign(northz).isdigit():
             northz = int(northz)
             break
         else:
             print("Please put in a number.")
     while True:
         southz = input("Southern Z coord on map: ")
-        if southz.isdigit():
+        if removenegativesign(southz).isdigit():
             southz = int(southz)
             break
         else:
