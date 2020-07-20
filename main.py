@@ -111,7 +111,7 @@ try:
     if a == "y":
         print("Your city's land area is " + str(round(reds/size * actualsize, 2)) + " blocks (" + str(round(reds/size * actualsize / 1000000, 2)) + "km^2)")
         print("Your airport space's land area is " + str(round(greens/size * actualsize, 2)) + " blocks (" + str(round(greens/size * actualsize / 1000000, 2)) + "km^2)")
-        print("You have " + str(round(reds/size * actualsize - greens/size * actualsize, 2)) + " blocks of airport space left.")
+        print("You have " + str(round(reds/size * actualsize / 2 - greens/size * actualsize, 2)) + " blocks of airport space left.")
     print("Note that these values may or may not be accurate, depending on how you marked the areas out.")
 except ZeroDivisionError:
     print("There are no solid red pixels in the picture!")
