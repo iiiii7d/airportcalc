@@ -1,6 +1,10 @@
-# airportcalc v1.0.0 (20/7/20)
+# airportcalc v1.0.1 (21/7/20)
 A calculator for airports in minecartrapidtransit
+
 Online version here: https://repl.it/@iiiii7d/airportcalc
+
+## Changelog
+v1.0.1 (DB888): Airport space left should be correct now, thanks :)
 
 ## Before using this calculator
 1. Open a photo editor eg Pixlr, Photoshop
