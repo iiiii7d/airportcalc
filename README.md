@@ -4,7 +4,7 @@ A calculator for airports in minecartrapidtransit
 Github: https://github.com/iiiii7d/airportcalc
 
 ## Changelog
-v1.0.1 (DB888): Airport space left should be correct now, thanks :)
+v1.0.1 (Dinty1): Airport space left should be correct now, thanks :)
 
 ## Before using this calculator
 1. Open a photo editor eg Pixlr, Photoshop
